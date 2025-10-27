@@ -26,7 +26,7 @@ A modern, responsive personal portfolio website for Mosammat Mariya — Python D
 1. **Home**: Name reveal and role subtitle (Python Developer & Designer)
 2. **About**: Background, CV download and view
 3. **Skills**: Web technologies, programming languages, Python stack, databases, tools, soft skills
-4. **Publications**: IEEE publication (present, currently hidden in UI)
+4. **Publications**: 
 5. **Projects**: Key academic/research projects
 6. **Experience**: Professional roles and highlights
 7. **Contact**: Email, location, social links, and form
