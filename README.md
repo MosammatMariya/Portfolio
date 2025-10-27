@@ -5,7 +5,7 @@ Check out the live version of my portfolio here: [Mosammat Mariya Portfolio](htt
 
 # Personal Portfolio Website
 
-![Portfolio Preview](./images_backup_20251028_013146/portfolio_preview.png)
+![Portfolio Preview](./images/portfolio_preview.png)
 
 ## Overview
 
