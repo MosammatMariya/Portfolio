@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Portfolio
-=======
->>>>>>> a68f671 (	modified:   README.md)
-=======
->>>>>>> 7e7f706d2e1fe42db040e5994e1fba6837cd98bc
+
 ## Live Demo
 
 Check out the live version of my portfolio here: [Mosammat Mariya Portfolio](https://mosammatmariya.github.io/Portfolio/)
