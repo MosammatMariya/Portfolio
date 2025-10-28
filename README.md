@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Portfolio
+=======
+>>>>>>> a68f671 (	modified:   README.md)
 ## Live Demo
 
 Check out the live version of my portfolio here: [Mosammat Mariya Portfolio](https://mosammatmariya.github.io/Portfolio/)
@@ -26,7 +29,11 @@ A modern, responsive personal portfolio website for Mosammat Mariya — Python D
 1. **Home**: Name reveal and role subtitle (Python Developer & Designer)
 2. **About**: Background, CV download and view
 3. **Skills**: Web technologies, programming languages, Python stack, databases, tools, soft skills
+<<<<<<< HEAD
 4. **Publications**: 
+=======
+4. **Publications**: IEEE publication (present, currently hidden in UI)
+>>>>>>> a68f671 (	modified:   README.md)
 5. **Projects**: Key academic/research projects
 6. **Experience**: Professional roles and highlights
 7. **Contact**: Email, location, social links, and form
@@ -50,4 +57,8 @@ Tested and working on:
 
 - Particles.js for the interactive background
 - Font Awesome for the icons
+<<<<<<< HEAD
 - FormSubmit for handling form submissions
+=======
+- FormSubmit for handling form submissions
+>>>>>>> a68f671 (	modified:   README.md)
