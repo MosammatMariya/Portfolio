@@ -3,7 +3,7 @@
 
 ## Live Demo
 
-Check out the live version of my portfolio here: [Mosammat Mariya Portfolio](file:///C:/Users/Asus/Documents/GitHub/Portfolio/index.html)
+Check out the live version of my portfolio here: [Mosammat Mariya Portfolio](https://mosammatmariya.github.io/Portfolio/)
 
 # Personal Portfolio Website
 
