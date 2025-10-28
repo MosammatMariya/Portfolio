@@ -1,12 +1,12 @@
 // Particles.js Configuration
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize particles.js
-    if (document.getElementById('particles-js')) {
+    // Initialize particles.js (full-page background)
+    if (document.getElementById('particles-bg')) {
         const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const isMobile = window.innerWidth <= 768;
-        const count = prefersReduced ? 20 : (isMobile ? 35 : 70);
+        const count = prefersReduced ? 30 : (isMobile ? 60 : 120);
 
-        particlesJS('particles-js', {
+        particlesJS('particles-bg', {
             particles: {
                 number: {
                     value: count,
@@ -146,6 +146,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function submitFormData() {
         fetch('https://formsubmit.co/ajax/mariya.mosammat@gmail.com', {
             method: 'POST',
+            headers: {
+                'Accept': 'application/json'
+            },
             body: formData
         })
         .then(response => {
