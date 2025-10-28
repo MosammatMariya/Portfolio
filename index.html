@@ -1,3 +1,184 @@
+       <div class="project-card">
+          <h3>From Words to Visuals: Generating Video Tutorials from Textual Search/Query</h3>
+          <p>
+            Thesis project converting text-based queries into captivating video tutorials using NLP to comprehend queries, Computer Vision for retrieving images and extracting text, and Audio Synthesis for producing natural narration.
+          </p>
+          <p>
+            Enhances efficiency, accessibility, and scalability in creating educational content.
+          </p>
+          <p><strong>Tech:</strong> Python, NLP, Computer Vision, Audio Synthesis</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Multimodal Sarcasm Detection Using Facial Expression, Voice, and Dialogue</h3>
+          <p>
+            Built a system that identifies sarcasm by integrating audio, text, and video signals. Utilized YAMNet for voice recognition, DistilBERT for dialogue processing, and MobileNetV2 for facial expressions, achieving 65.2% accuracy.
+          </p>
+          <p>
+            <a href="https://github.com/MosammatMariya/Multimodal-Sarcasm-Detection" target="_blank" class="btn">View Code</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="experience-content">
+        <div class="experience-text">
+          <h3>Experience Highlights</h3>
+          <h4>Outreach Subcommittee Member — Society for Ecological Restoration (SER)</h4>
+          <p>May 2025 - Jun 2025 · Dhaka, Bangladesh · Hybrid</p>
+          <ul>
+            <li>Collaborated with a global team to raise awareness about ecosystem restoration.</li>
+            <li>Supported events and outreach initiatives; built relationships with international partners.</li>
+            <li>Contributed to UN Decade on Ecosystem Restoration activities.</li>
+          </ul>
+          <h4>Project Manager | Inventory & Visual Content Specialist — Probha Aurora</h4>
+          <p>Nov 2024 - May 2025 · Dhaka, Bangladesh · On-site</p>
+          <ul>
+            <li>Led inventory optimization projects and designed engaging visual content.</li>
+            <li>Coordinated "Guardians of Dhaka" to educate students on waste management (3Rs).</li>
+          </ul>
+          <h4>Data Analytics Intern — MYSOFT LIMITED</h4>
+          <p>Sep 2023 - Dec 2023 · Dhaka, Bangladesh · Remote</p>
+          <ul>
+            <li>Hands-on with Python, SQL, Angular, Flask; used Pandas and Matplotlib for analysis/visualization.</li>
+            <li>Program supported by vInternship.org and eSRD-Lab (BUET), under ICT Division.</li>
+          </ul>
+          <p>
+            <a href="images/VIS_Certificate_Mosammat  Mariya .pdf" class="btn" target="_blank">View Internship Certificate</a>
+          </p>
+        </div>
+        <div class="experience-image">
+          <img src="images/Internship and.png" alt="Experience" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form">
+          <form
+            id="contactForm"
+            action="https://formsubmit.co/mariya.mosammat@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="btn submit-btn" id="submitBtn">Send Message</button>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://formsubmit.co/thanks" />
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><i class="fas fa-envelope"></i> mariya.mosammat@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Australia</p>
+          <p>
+            Feel free to reach out with any questions, collaboration
+            opportunities, or just to say hello. I'm always open to discussing
+            new projects and ideas.
+          </p>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/mosammat-mariya-36551a295/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/MosammatMariya/Portfolio/tree/main" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="formModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        
+        <div class="modal-body" id="loadingState">
+          <div class="loading-animation">
+            <div class="loading-spinner"></div>
+          </div>
+          <h3>Sending Message...</h3>
+          <p>Please wait while your message is being sent.</p>
+        </div>
+        
+        <div class="modal-body" id="successState" style="display: none;">
+          <div class="success-animation">
+            <svg viewBox="0 0 100 100">
+              <circle
+                class="success-circle"
+                cx="50"
+                cy="50"
+                r="40"
+                stroke="var(--primary-color)"
+                stroke-width="3"
+                fill="none"
+              />
+              <path
+                class="success-check"
+                stroke="var(--primary-color)"
+                stroke-width="3"
+                fill="none"
+                d="M30,50 L45,65 L70,35"
+              />
+            </svg>
+          </div>
+          <h3>Thank You!</h3>
+          <p>
+            Your message has been sent successfully. I'll get back to you soon.
+          </p>
+        </div>
+        
+        <div class="modal-body" id="errorState" style="display: none;">
+          <div class="error-animation">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="40" stroke="red" stroke-width="3" fill="none"/>
+              <path stroke="red" stroke-width="3" fill="none" d="M35,35 L65,65 M35,65 L65,35"/>
+            </svg>
+          </div>
+          <h3>Something Went Wrong</h3>
+          <p>There was an issue sending your message. Please try again or contact me directly at mariya.mosammat@gmail.com</p>
+          <button id="retryBtn" class="btn">Try Again</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Mosammat Mariya. All Rights Reserved.</p>
+    </footer>
+
+    <div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+        <div class="scroll-arrow"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,6 +198,7 @@
     <link rel="icon" type="image/png" href="images/my_icon.png">
   </head>
   <body>
+    <div id="particles-bg"></div>
     <nav id="navbar">
       <ul>
         <li><a href="#home" class="nav-link active">Home</a></li>
@@ -30,7 +212,6 @@
     </nav>
 
     <section id="home">
-      <div id="particles-js"></div>
       <div class="home-content">
         <h1 class="name-reveal">
           <span class="masked-text">Mosammat Mariya</span>
@@ -57,13 +238,12 @@
           </p>
 
           <div class="about-buttons">
-            <a href="(RG) Mosammat_Mariya_CV.pdf" class="btn" download>Download CV</a>
+            <a href="images/Mosammat_Mariya.pdf" class="btn" download>Download CV</a>
             <a
-              href="images/Mosammat_Mariya_CV.png"
+              href="images/Mosammat_Mariya.pdf"
               class="btn view-cv"
               target="_blank"
-              >View CV</a
-            >
+              >View CV</a>
           </div>
         </div>
       </div>
@@ -207,181 +387,4 @@
         <div class="section-divider"></div>
       </div>
       <div class="projects-content">
-        <div class="project-card">
-          <h3>From Words to Visuals: Generating Video Tutorials from Textual Search/Query</h3>
-          <p>
-            Thesis project converting text-based queries into captivating video tutorials using NLP to comprehend queries, Computer Vision for retrieving images and extracting text, and Audio Synthesis for producing natural narration.
-          </p>
-          <p>
-            Enhances efficiency, accessibility, and scalability in creating educational content.
-          </p>
-          <p><strong>Tech:</strong> Python, NLP, Computer Vision, Audio Synthesis</p>
-        </div>
-
-        <div class="project-card">
-          <h3>Multimodal Sarcasm Detection Using Facial Expression, Voice, and Dialogue</h3>
-          <p>
-            Built a system that identifies sarcasm by integrating audio, text, and video signals. Utilized YAMNet for voice recognition, DistilBERT for dialogue processing, and MobileNetV2 for facial expressions, achieving 65.2% accuracy.
-          </p>
-          <p>
-            <a href="https://github.com/MosammatMariya/Multimodal-Sarcasm-Detection" target="_blank" class="btn">View Code</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience">
-      <div class="section-header">
-        <h2>Experience</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="experience-content">
-        <div class="experience-text">
-          <h3>Experience Highlights</h3>
-          <h4>Outreach Subcommittee Member — Society for Ecological Restoration (SER)</h4>
-          <p>May 2025 - Jun 2025 · Dhaka, Bangladesh · Hybrid</p>
-          <ul>
-            <li>Collaborated with a global team to raise awareness about ecosystem restoration.</li>
-            <li>Supported events and outreach initiatives; built relationships with international partners.</li>
-            <li>Contributed to UN Decade on Ecosystem Restoration activities.</li>
-          </ul>
-          <h4>Project Manager | Inventory & Visual Content Specialist — Probha Aurora</h4>
-          <p>Nov 2024 - May 2025 · Dhaka, Bangladesh · On-site</p>
-          <ul>
-            <li>Led inventory optimization projects and designed engaging visual content.</li>
-            <li>Coordinated "Guardians of Dhaka" to educate students on waste management (3Rs).</li>
-          </ul>
-          <h4>Data Analytics Intern — MYSOFT LIMITED</h4>
-          <p>Sep 2023 - Dec 2023 · Dhaka, Bangladesh · Remote</p>
-          <ul>
-            <li>Hands-on with Python, SQL, Angular, Flask; used Pandas and Matplotlib for analysis/visualization.</li>
-            <li>Program supported by vInternship.org and eSRD-Lab (BUET), under ICT Division.</li>
-          </ul>
-        </div>
-        <div class="experience-image">
-          <img src="images/Internship and.png" alt="Experience" />
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="section-header">
-        <h2>Contact</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="contact-content">
-        <div class="contact-form">
-          <form
-            id="contactForm"
-            action="https://formsubmit.co/mariya.mosammat@gmail.com"
-            method="POST"
-          >
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-            <input type="text" name="subject" placeholder="Subject" required />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              required
-            ></textarea>
-            <button type="submit" class="btn submit-btn" id="submitBtn">Send Message</button>
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_next" value="https://formsubmit.co/thanks" />
-          </form>
-        </div>
-        <div class="contact-info">
-          <h3>Contact Information</h3>
-          <p><i class="fas fa-envelope"></i> mariya.mosammat@gmail.com</p>
-          <p><i class="fas fa-map-marker-alt"></i> Australia</p>
-          <p>
-            Feel free to reach out with any questions, collaboration
-            opportunities, or just to say hello. I'm always open to discussing
-            new projects and ideas.
-          </p>
-          <div class="social-links">
-            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a
-              href="https://www.linkedin.com/in/mosammat-mariya-36551a295/"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a href="https://github.com/MosammatMariya/Portfolio/tree/main" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div id="formModal" class="modal">
-      <div class="modal-content">
-        <span class="close-modal" id="closeModal">&times;</span>
-        
-        <div class="modal-body" id="loadingState">
-          <div class="loading-animation">
-            <div class="loading-spinner"></div>
-          </div>
-          <h3>Sending Message...</h3>
-          <p>Please wait while your message is being sent.</p>
-        </div>
-        
-        <div class="modal-body" id="successState" style="display: none;">
-          <div class="success-animation">
-            <svg viewBox="0 0 100 100">
-              <circle
-                class="success-circle"
-                cx="50"
-                cy="50"
-                r="40"
-                stroke="var(--primary-color)"
-                stroke-width="3"
-                fill="none"
-              />
-              <path
-                class="success-check"
-                stroke="var(--primary-color)"
-                stroke-width="3"
-                fill="none"
-                d="M30,50 L45,65 L70,35"
-              />
-            </svg>
-          </div>
-          <h3>Thank You!</h3>
-          <p>
-            Your message has been sent successfully. I'll get back to you soon.
-          </p>
-        </div>
-        
-        <div class="modal-body" id="errorState" style="display: none;">
-          <div class="error-animation">
-            <svg viewBox="0 0 100 100">
-              <circle cx="50" cy="50" r="40" stroke="red" stroke-width="3" fill="none"/>
-              <path stroke="red" stroke-width="3" fill="none" d="M35,35 L65,65 M35,65 L65,35"/>
-            </svg>
-          </div>
-          <h3>Something Went Wrong</h3>
-          <p>There was an issue sending your message. Please try again or contact me directly at mariya.mosammat@gmail.com</p>
-          <button id="retryBtn" class="btn">Try Again</button>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <p>&copy; 2025 Mosammat Mariya. All Rights Reserved.</p>
-    </footer>
-
-    <div class="scroll-indicator">
-        <div class="scroll-progress"></div>
-        <div class="scroll-arrow"></div>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+ 
